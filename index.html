@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="game.js" rel="script"></script>
+</head>
+<body>
+    <div class="container">
+        <h3>Think of a number between 1 - 10.</h3>
+        <h3>Can you guess it?</h3>
+
+        <input type="text" placeholder="Number" id="guess"><br>
+        <button onclick="play()" id="my_btn">Guess</button>
+
+        <p id="message1">No. of Guesses: 0</p>
+        <p id="message2">Guessed Numbers are: None</p>
+        <p id="message3"></p>
+    </div>
+</body>
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets3.lottiefiles.com/packages/lf20_tiviyc3p.json"  background="transparent"  speed="1"  style="width: 500px; height: 500px;" id="player"    ></lottie-player>
+</html>
